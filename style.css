@@ -1,0 +1,539 @@
+/*
+Theme name: Denize
+Theme URI: https://denizeolerante.com.br
+Author: Tales Costa
+Author URI: tales
+Description: Tema do site da Denize
+Version: 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Allura');
+@import url('https://fonts.googleapis.com/css?family=Roboto Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 108px;
+    top: 0px;
+    background-color: #afc4c0;
+}
+
+.menu h2{
+    position: absolute;
+    font-family: Allura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.menu img{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin: 0 0px 0px 0px;
+    top: -40px;
+    left: -10px;
+}
+
+.menu .denize{
+    position: absolute;
+    width: 62px;
+    height: 24px;
+    left: 100px;
+    top: 22px;
+
+    color: #FFFFFF;
+}
+
+.menu .olerante{
+    position: absolute;
+    width: 62px;
+    height: 24px;
+    left: 100px;
+    top: 48px;
+
+
+    color: #FFFFFF;
+}
+
+.menu .conteudo h2{
+    position: absolute;
+    width: 149px;
+    height: 89px;
+    left: 900px;
+    top: 8px;
+
+    line-height: 45px;
+    text-align: center;
+}
+
+.menu .contato h2{
+    position: absolute;
+    width: 149px;
+    height: 89px;
+    left: 1250px;
+    top: 28px;
+
+    line-height: 45px;
+    text-align: center;
+}
+
+.menu .linha-vertical{
+    position: absolute;
+    width: 3px;
+    height: 100px;
+    left: 1625px;
+    top: 0px;
+
+    background-color: #FAEBE4;
+}
+
+.menu .insta h2{
+    position: absolute;
+    width: 132px;
+    height: 35px;
+    left: 1716px;
+    top: 28px;
+
+    font-family: Allura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    /* identical to box height */
+
+    text-align: center;
+}
+
+.menu i{
+    position: absolute;
+    width: 132px;
+    height: 35px;
+    left: 1680px;
+    top: 28px;
+
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+
+.linha-horizontal{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 1px;
+    top: 100px;
+
+    background: #FAEBE4;
+}
+
+.fundo-verde{
+    position: absolute;
+    width: 100%;
+    height: 880px;
+    left: 0px;
+    top: 102px;
+    
+    background: #AFC4C0;  
+}
+
+.capa{
+    position: absolute;
+    width: 1507px;
+    height: 465px;
+    left: 362px;
+    top: 225px;
+}
+
+.linha-capa{
+    position: absolute;
+    width: 1469px;
+    height: 3px;
+    left: 271px;
+    top: 850px;
+    
+    background: #FAEBE4; 
+}
+
+.pag2 img{
+    position: absolute;
+    width: 407px;
+    height: 418px;
+    left: 780px;
+    top: 1105px;
+}
+
+.linha-sobre{
+    position: absolute;
+    width: 1080px;
+    height: 3px;
+    left: 427px;
+    top: 1598px;
+
+    background: #FAEBE4;
+}
+
+.pag2 h2{
+    position: absolute;
+    width: 370px;
+    height: 80px;
+    left: 785px;
+    top: 1540px;
+
+    font-family: Allura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 80px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.pag2 h3{
+    position: absolute;
+    width: 1423px;
+    height: 270px;
+    left: 307px;
+    top: 1612px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #000000;
+}
+
+.aba-noticias h2{
+    position: absolute;
+    width: 342px;
+    height: 193px;
+    left: 783px;
+    top: 2130px;
+
+    font-family: Allura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.aba-noticias .linha-blog{
+    position: absolute;
+    width: 354px;
+    height: 3px;
+    left: 783px;
+    top: 2329px;
+
+    background: #FAEBE4;
+}
+
+.aba-noticias .separar-pagina{
+    position: absolute;
+    width: 1920px;
+    height: 3px;
+    left: 1px;
+    top: 2429px;
+
+    background: black;
+}
+
+.aba-noticias .separar-pagina2{
+    position: absolute;
+    width: 1920px;
+    height: 3px;
+    left: 1px;
+    top: 3329px;
+
+    background: black;
+}
+
+.aba-contato h2{
+    position: absolute;
+    width: 142px;
+    height: 75px;
+    left: 396px;
+    top: 3447px;
+
+    font-family: Roboto Condensed;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.aba-contato .linha-endereco{
+    position: absolute;
+    width: 354px;
+    height: 6px;
+    left: 290px;
+    top: 3501px;
+
+    background: #FAEBE4;
+}
+
+.aba-contato h3{
+    position: absolute;
+    width: 410px;
+    height: 215px;
+
+    font-family: Roboto Condensed;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+ 
+ .aba-contato .linha1{
+    left: 262px;
+    top: 3512px;
+ }
+
+ .aba-contato .linha2{
+    left: 262px;
+    top: 3592px;
+ }
+
+ .aba-contato .linha3{
+    left: 262px;
+    top: 3632px;
+ }
+
+.aba-contato .linha4{
+    left: 262px;
+    top: 3672px;
+}
+
+.redes-sociais .fundo{
+    position: absolute;
+    width: 100%;
+    height: 212px;
+    left: 0px;
+    top: 4043px;
+
+    background: #FAEBE4;
+}
+
+.redes-sociais .titulo{
+    position: absolute;
+    width: 241px;
+    height: 47px;
+    left: 874px;
+    top: 4069px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.redes-sociais .telegram h3{
+    position: absolute;
+    height: 30px;
+    left: 340px;
+    top: 4149px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.redes-sociais .telegram i{
+    position: absolute;
+    height: 30px;
+    left: 320px;
+    top: 4149px;
+}
+
+.redes-sociais .whatsapp h3{
+    position: absolute;
+    height: 30px;
+    left: 621px;
+    top: 4169px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.redes-sociais .whatsapp i{
+    position: absolute;
+    height: 30px;
+    left: 601px;
+    top: 4169px;
+}
+
+.redes-sociais .insta h3{
+    position: absolute;
+    height: 30px;
+    left: 932px;
+    top: 4149px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.redes-sociais .insta i{
+    position: absolute;
+    height: 30px;
+    left: 912px;
+    top: 4151px;
+}
+
+.redes-sociais .facebook h3{
+    position: absolute;
+    height: 30px;
+    left: 1192px;
+    top: 4169px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.redes-sociais .facebook i{
+    position: absolute;
+    height: 30px;
+    left: 1172px;
+    top: 4169px;
+}
+
+.redes-sociais .email h3{
+    position: absolute;
+    height: 30px;
+    left: 1536px;
+    top: 4149px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* identical to box height */
+
+    color: #000000; 
+}
+
+.redes-sociais .email i{
+    position: absolute;
+    height: 30px;
+    left: 1516px;
+    top: 4149px;
+}
+
+.rodape .fundo{ 
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 4255px;
+
+    background: #AFC4C0;
+}
+
+.rodape .direitos{
+    position: absolute;
+    height: 30px;
+    left: 791px;
+    top: 4284px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.rodape .dev{
+    position: absolute;
+    height: 30px;
+    left: 1624px;
+    top: 4304px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #000000; 
+}
+
+.fundo-horizontal-grande{
+    position: absolute;
+    width: 3px;
+    height: 4233px;
+    left: 136px;
+    top: 102px;
+
+    background: #FAEBE4;
+}
